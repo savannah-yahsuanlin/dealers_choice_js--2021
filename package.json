@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-  	"start": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "devDependencies": {
     "express": "^4.17.1",
     "morgan": "^1.10.0",
+    "node-time-ago": "^1.0.0",
     "nodemon": "^2.0.14"
   }
 }
