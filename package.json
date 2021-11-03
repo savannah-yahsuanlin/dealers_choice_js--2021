@@ -14,5 +14,8 @@
     "morgan": "^1.10.0",
     "node-time-ago": "^1.0.0",
     "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
   }
 }
