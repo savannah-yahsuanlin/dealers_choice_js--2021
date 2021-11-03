@@ -11,6 +11,15 @@ module.exports = (posts) => `
     <div class="beer-list">
       <header>Beer</header>
 		<input size="50" type="text" Placeholder="Have not found your favorite?! Search here...">
+		<span>Sort by</span>
+		<select>
+			<option>Relevance</option>
+			<option>Bestselling</option>
+			<option>Top Rated</option>
+			<option>Price Low to High</option>
+			<option>Price High to Low</option>
+			<option>New</option>
+		</select>
       ${posts.map(post =>
 		`<div class="beer-item">
 			<p class="beer-top">
